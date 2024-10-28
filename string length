@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+   char str[] = "ABCDEFGHIJKL";
+   printf("%ld",strlen(str));
+   printf("\n%ld", sizeof(str));
+   return 0;
+}
